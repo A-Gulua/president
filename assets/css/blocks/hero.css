@@ -1,0 +1,36 @@
+.hero {
+    padding-top: 114px;
+    height: 432px;
+    background: url(../../img/hero.jpg) center center / cover no-repeat;
+}
+
+.title {
+    text-align: center;
+    font-family: "Yeseva One", sans-serif;
+    letter-spacing: 5px;
+    font-size: 150px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.subtitle {
+    text-align: center;
+    font-family: "Yeseva One", sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.container_star {
+    padding: 22px;
+    gap: 20px;
+    display: flex;  
+    justify-content: center;
+    max-width: 1440px;   
+}
+
+.star {
+    margin: 0 10px;
+}
